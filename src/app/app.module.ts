@@ -16,6 +16,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { appInterceptorProvider } from './app.interceptor';
 import { AuthenticateComponent } from './authenticate/authenticate.component';
 import { ContactsComponent } from './contacts/contacts.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { ContactsComponent } from './contacts/contacts.component';
     NotFoundComponent,
     AuthenticateComponent,
     ContactsComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
