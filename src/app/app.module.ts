@@ -15,6 +15,7 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { appInterceptorProvider } from './app.interceptor';
 import { AuthenticateComponent } from './authenticate/authenticate.component';
+import { ContactsComponent } from './contacts/contacts.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { AuthenticateComponent } from './authenticate/authenticate.component';
     WelcomeComponent,
     NotFoundComponent,
     AuthenticateComponent,
+    ContactsComponent,
   ],
   imports: [
     BrowserModule,
